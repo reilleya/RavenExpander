@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 12)
     (tracks 7)
     (zones 0)
     (modules 3)
@@ -234,6 +234,12 @@
     )
   )
 
+  (gr_text "Rev 1" (at 131.064 83.312) (layer B.SilkS) (tstamp 60C01F3A)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text "Simpler\nCircuit" (at 140.716 82.296) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_text Main (at 136.652 80.264 90) (layer F.SilkS) (tstamp 60BEECDC)
     (effects (font (size 1.75 1.75) (thickness 0.3)))
   )
@@ -261,7 +267,7 @@
   (segment (start 140.208 73.66) (end 133.604 80.264) (width 1) (layer B.Cu) (net 5))
   (segment (start 133.604 80.264) (end 131.572 80.264) (width 1) (layer B.Cu) (net 5))
 
-  (zone (net 6) (net_name VBUS) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 6) (net_name VBUS) (layer B.Cu) (tstamp 60C01F28) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
